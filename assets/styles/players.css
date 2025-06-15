@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#864ad99d, #17257381);
+}
+
+header {
+    background-color: #172573c0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header .container-navigation {
+    display: flex;
+    justify-content: baseline;
+}
+
+header .links a {
+    font-size: 36px;
+    color: white;
+    font-family: 'Lexend', 'Arial', 'Verdana';
+    font-variant-caps: all-petite-caps;
+    padding: 10px 20px;
+}
+
+header .links a:hover {
+    color: #F2D43D;
+}
+
+header .logo {
+    display: flex;
+    justify-items: baseline;
+}
+
+header .logo h1 {
+    color: white;
+    font-family: 'Lexend', 'Arial', 'Verdana';
+    font-size: 36px;
+}
+
+main .container-huge .leaderboard {
+    padding: 125px;
+}
+
+.container-huge .leaderboard h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: 'jersey 10';
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: -34px;
+}
+
+main .container-huge .period {
+    display: flex;
+    justify-content: space-around;
+    justify-items: baseline;
+    margin-top: -20px;
+}
+
+main .container-huge .period h2 {
+    font-size: 48px;
+    font-family: 'lexend';
+    color: white;
+}
+
+main .container-huge .period h3 {
+    font-size: 48px;
+    font-family: 'lexend';
+    color: #F2D43D;
+}
+
+main .container-huge .top-three {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-right: 25px;
+}
+
+.container-huge .top-three h1 {
+    font-size: 48px;
+    font-family: 'lexend';
+    color: white;
+    text-align: center;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+main .container-huge .top-three .person-1 {
+    padding: 70px;
+    margin: 0;
+}
+
+main .container-huge .top-three .person-2 {
+    padding: -25px;
+}
+
+main .container-huge .top-three .person-3 {
+    padding: 70px;
+    margin: 0;
+}
+
+main .container-huge .top-three p {
+    font-size: 24px;
+    font-family: 'lexend';
+    color: white;
+    text-align: center;
+    margin-left: -20px;
+}
+
+main .container-huge .top-three .rectangle {
+    width: 200px;
+    height: 300px;
+    background: linear-gradient(#F2D43D, #9747FF);
+    margin-top: -200px;
+    margin-left: -25px;
+
+}
+
+.content-rectangle {
+    width: 1098px;
+    height: 1205px;
+    background: linear-gradient(#9747FF, #5B2B99);
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    margin-left: 600px;
+    border: 5px double #fff;
+    margin-top: -70px;
+}
+
+main .statistics {
+    width: 1920px;
+    height: 3000px;
+}
+
+.content-rectangle .all-players {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.all-players h1 {
+    font-size: 64px;
+    font-family: 'jersey 10';
+    word-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -14px;
+}
+
+.content-rectangle .all-players p {
+    font-size: 36px;
+    font-family: 'lexend';
+    color: white;
+    padding: 20px;
+}
+
+.content-rectangle .all-players .player-4 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-5 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-6 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-7 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-8 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-9 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 70px;
+}
+
+.content-rectangle .all-players .player-10 {
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+}
+
+.content-rectangle .score {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.content-rectangle .score h1 {
+    font-size: 64px;
+    font-family: 'jersey 10';
+    word-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.content-rectangle .score p {
+    font-size: 36px;
+    font-family: 'verdana';
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 42px;
+}
+
+.statistics .picture-cat {
+    margin-left: 1300px;
+    margin-top: -1010px;
+}
